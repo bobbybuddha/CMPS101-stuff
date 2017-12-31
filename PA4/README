@@ -1,0 +1,54 @@
+Name: Bobby Singh Dhillon
+CruzID: bosdhill
+ID number: 1594478
+Assignment Name: Programming Assignment 4 -- Graph ADT
+Descriptions: 
+
+
+File: Graph.c
+-----------------------------------------------------------------------------
+Graph.c is the implementation file for the Graph ADT. It represents an 
+implementation of a Graph object, which is a combinatorial structure that 
+is represented by two sets, a set of vertices and edges.
+-----------------------------------------------------------------------------
+
+File: Graph.h
+-----------------------------------------------------------------------------
+Graph.h is the header file for Graph.c, which describes all the functions
+used in order to implement this instance of the Graph ADT.
+-----------------------------------------------------------------------------
+
+File: List.c
+-----------------------------------------------------------------------------
+List.c is a part of the implementation of the List ADT, whose set of 
+mathematical structures is any sequence of finite integers such that at most 
+one element is "underscored", i.e. is pointed to by the cursor (iterator). 
+This is the implementation file for List, defining all the functions for 
+the List ADT. 
+-----------------------------------------------------------------------------
+
+File: List.h
+-----------------------------------------------------------------------------
+List.h is a part of implementation of the List ADT, whose set of mathematical 
+structures is any sequence of finite integers such that at most one element 
+is "underscored", i.e. is pointed to by the cursor (iterator). This is the 
+specification file for the List ADT, describing the functions for it in C. 
+-----------------------------------------------------------------------------
+
+File: FindPath.c
+-----------------------------------------------------------------------------
+FindPath.c is the top level client for this project. It takes an input file
+of distinct pairs of vertices, and finds a shortest path between them, 
+printing that path to an output file.
+-----------------------------------------------------------------------------
+
+File: GraphClient.c
+-----------------------------------------------------------------------------
+ A test client for the Graph ADT. 
+-----------------------------------------------------------------------------
+
+File: Makefile
+-----------------------------------------------------------------------------
+Makefile for CMPS 101 Programming Assignment 4, taken from the CMPS 101 site
+-----------------------------------------------------------------------------
+
