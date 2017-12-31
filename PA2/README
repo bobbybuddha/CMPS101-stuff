@@ -1,0 +1,46 @@
+Name: Bobby Singh Dhillon
+CruzID: bosdhill
+ID number: 1594478
+Assignment Name: Programming Assignment 2 -- List ADT
+Descriptions: 
+
+
+File: List.c
+-----------------------------------------------------------------------------
+List.c is a part of the implementation of the List ADT, whose set of 
+mathematical structures is any sequence of finite integers such that at most 
+one element is "underscored", i.e. is pointed to by the cursor (iterator). Its 
+purpose in this lab is to store the sorted indices of an array of strings that 
+are extracted from an input file in the client Lex.c. Also, in C, this is the 
+implementation file for List, defining all the functions for the List ADT. 
+-----------------------------------------------------------------------------
+
+File: List.h
+-----------------------------------------------------------------------------
+List.h is a part of implementation of the List ADT, whose set of mathematical 
+structures is any sequence of finite integers such that at most one element 
+is "underscored", i.e. is pointed to by the cursor (iterator). This is the 
+specification file for the List ADT, describing the functions for it in C. 
+-----------------------------------------------------------------------------
+
+File: Lex.c
+-----------------------------------------------------------------------------
+Lex.c is the client that implements the List ADT in order to sort the 
+elements of an input array, read as strings from a file, indirectly. It uses
+an algorithm similar to InsertionSort to store the indices of the string 
+array in sorted order. In then writes the sorted string array to a file. 
+-----------------------------------------------------------------------------
+
+File: ListClient.c
+-----------------------------------------------------------------------------
+ A test client for the List ADT provided by the instructor. 
+-----------------------------------------------------------------------------
+
+File: Makefile
+-----------------------------------------------------------------------------
+Makefile for CMPS 101 Programming Assignment 2
+
+      make                   makes Lex
+      make ListClient        makes ListClient
+-----------------------------------------------------------------------------
+

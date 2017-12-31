@@ -1,0 +1,46 @@
+Name: Bobby Singh Dhillon
+CruzID: bosdhill
+ID number: 1594478
+Assignment Name: Programming Assignment 3 -- Matrix Operators
+Descriptions: 
+
+File: List.java
+-----------------------------------------------------------------------------
+List.java is an implementation of the  List ADT, whose set of mathematical 
+structures is any sequence of finite objects such that at most one element 
+is "underscored", i.e. is pointed to by the cursor (iterator). Its purpose
+in this lab is to store nonzero Matrix entries, sorted in ascending order
+by column number.
+-----------------------------------------------------------------------------
+
+File: Sparse.java
+-----------------------------------------------------------------------------
+Sparse is the top level client that implements Matrix.java. It performs
+various operations on input Matrices, where the size and non zero entries 
+are read in from a file. The results are then written to an output file.  
+-----------------------------------------------------------------------------
+
+File: Matrix.java
+-----------------------------------------------------------------------------
+The Matrix class is used to represent matrices and various operations on 
+them. It implements fast run times assuming the matrices are sparse. 
+-----------------------------------------------------------------------------
+
+File: ListTest.java
+-----------------------------------------------------------------------------
+A test client for the List ADT. Tests out List.java before implementing it 
+in Matrix.java.
+-----------------------------------------------------------------------------
+
+File: MatrixTest.java
+-----------------------------------------------------------------------------
+MatrixTest.java tests the Matrix class.
+-----------------------------------------------------------------------------
+
+File: Makefile
+-----------------------------------------------------------------------------
+Makefile for CMPS 101 pa3
+Creates an executable jar file called Sparse.  This makefile will compile 
+all .java files in your current working directory.  
+-----------------------------------------------------------------------------
+

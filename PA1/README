@@ -1,0 +1,38 @@
+Name: Bobby Singh Dhillon
+CruzID: bosdhill
+ID number: 1594478
+Assignment Name: Programming Assignment 1 -- List ADT
+Descriptions: 
+
+
+File: List.java
+-----------------------------------------------------------------------------
+List.java is an implementation of the  List ADT, whose set of mathematical 
+structures is any sequence of finite integers such that at most one element 
+is "underscored", i.e. is pointed to by the cursor (iterator). Its purpose
+in this lab is to store the sorted indices of an array of strings that are 
+extracted from an input file in the client Lex.java.
+-----------------------------------------------------------------------------
+
+File: Lex.java
+-----------------------------------------------------------------------------
+Lex.java is the client that implements the List ADT  in order to sort the 
+elements of an input array, read as strings from a file, indirectly. It uses
+an algorithm similar to InsertionSort to store the indices of the string 
+array in sorted order. In then writes the sorted string array to a file. 
+-----------------------------------------------------------------------------
+
+File: ListClient.java
+-----------------------------------------------------------------------------
+ A test client for the List ADT. Use this to test your list module. The
+ correct output is given below.
+-----------------------------------------------------------------------------
+
+File: Makefile
+-----------------------------------------------------------------------------
+Makefile for CMPS 101 pa1 
+Compiles all .java files in the current directory and creates an executable
+jar file called Lex.  See the following for a short description of makefiles
+       https://classes.soe.ucsc.edu/cmps012b/Summer15/lab1.pdf
+-----------------------------------------------------------------------------
+
