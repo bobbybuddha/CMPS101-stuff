@@ -1,6 +1,3 @@
-// Name: Bobby Singh Dhillon
-// CruzID: bosdhill
-// ID number: 1594478
 // Assignment Name: Programming Assignment 1 -- List ADT
 // File: Lex.java 
 // Description: 
