@@ -85,27 +85,26 @@ int main(int argc, char* argv[]){
    v = atoi(num);  // second vertex
    num = NULL; 
 
-   while(u != 0 && v != 0){
+  do {
 
-      if (u != 0 || v != 0){
-         // call BFS on u and v 
-         BFS(G,u);
-         fprintf(out,"\nThe distance from %d to %d is ",u,v); 
-         if (getDist(G,v) == INF)
-            fprintf(out, "infinity");
-         else 
-            fprintf(out,"%d",getDist(G,v));
-         if (getDist(G,v) == INF)
-            fprintf(out, "\nNo %d-%d path exists",u,v);
-         else{
-            fprintf(out,"\nA shortest %d-%d path is: ",u,v);
-            getPath(L,G,v);
-            printList(out,L);
-            fprintf(out,"\n");
-            freeList(&L); 
-            L = newList(); 
-         }
-      } 
+   // call BFS on u and v 
+   BFS(G,u);
+   fprintf(out,"\nThe distance from %d to %d is ",u,v); 
+   if (getDist(G,v) == INF)
+      fprintf(out, "infinity");
+   else 
+      fprintf(out,"%d",getDist(G,v));
+   if (getDist(G,v) == INF)
+      fprintf(out, "\nNo %d-%d path exists",u,v);
+   else{
+      fprintf(out,"\nA shortest %d-%d path is: ",u,v);
+      getPath(L,G,v);
+      printList(out,L);
+      fprintf(out,"\n");
+      freeList(&L); 
+      L = newList(); 
+    } while (u != 0 || v != 0);
+     
       fgets(line,MAX_LEN,in);
       num = strtok(line," "); // first vertex
       u = atoi(num); 
